@@ -12,19 +12,25 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1601593330,,"wq"
+|2,0,1601595720,,"wq"
+:q!
+|2,0,1601595683,,"q!"
 :q
-|2,0,1601592897,,"q"
+|2,0,1601595653,,"q"
 :PlugInstall
-|2,0,1601592881,,"PlugInstall"
+|2,0,1601595623,,"PlugInstall"
+:pluginstall
+|2,0,1601595618,,"pluginstall"
+:w
+|2,0,1601594222,,"w"
+:h g:lightline.colorscheme
+|2,0,1601594077,,"h g:lightline.colorscheme"
 :Q
 |2,0,1601592367,,"Q"
 :PluginInstall
 |2,0,1601592359,,"PluginInstall"
 :Wq
 |2,0,1601591798,,"Wq"
-:q!
-|2,0,1601587393,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -36,251 +42,246 @@
 
 # Registers:
 "1	LINE	0
+	syntax enable
+|3,0,1,1,1,0,1601595225,"syntax enable"
+"2	LINE	0
 	" Lightline
-|3,0,1,1,1,0,1601591950,"\" Lightline"
+|3,0,2,1,1,0,1601591950,"\" Lightline"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1601591957," "
+	d
+|3,1,36,0,1,0,1601595487,"d"
 
 # File marks:
-'0  17  12  ~/.gitignore
-|4,48,17,12,1601593330,"~/.gitignore"
-'1  17  0  ~/.gitignore
-|4,49,17,0,1601593286,"~/.gitignore"
-'2  74  0  ~/.vimrc
-|4,50,74,0,1601592220,"~/.vimrc"
-'3  10  0  ~/.vim/plugins.vim
-|4,51,10,0,1601591923,"~/.vim/plugins.vim"
-'4  64  0  ~/.vimrc
-|4,52,64,0,1601591887,"~/.vimrc"
-'5  64  0  ~/.vimrc
-|4,53,64,0,1601591887,"~/.vimrc"
-'6  9  0  ~/.vim/plugins.vim
-|4,54,9,0,1601591800,"~/.vim/plugins.vim"
-'7  9  0  ~/.vim/plugins.vim
-|4,55,9,0,1601591800,"~/.vim/plugins.vim"
-'8  65  0  ~/.vimrc
-|4,56,65,0,1601591226,"~/.vimrc"
-'9  65  0  ~/.vimrc
-|4,57,65,0,1601591226,"~/.vimrc"
+'0  81  0  ~/.vimrc
+|4,48,81,0,1601595720,"~/.vimrc"
+'1  81  20  ~/.vimrc
+|4,49,81,20,1601595714,"~/.vimrc"
+'2  15  10  ~/.vimrc
+|4,50,15,10,1601595683,"~/.vimrc"
+'3  15  10  ~/.vimrc
+|4,51,15,10,1601595683,"~/.vimrc"
+'4  15  10  ~/.vimrc
+|4,52,15,10,1601595683,"~/.vimrc"
+'5  15  10  ~/.vimrc
+|4,53,15,10,1601595683,"~/.vimrc"
+'6  1  0  ~/plugins.vim
+|4,54,1,0,1601595653,"~/plugins.vim"
+'7  10  30  ~/.vim/plugins.vim
+|4,55,10,30,1601595599,"~/.vim/plugins.vim"
+'8  81  15  ~/.vimrc
+|4,56,81,15,1601595535,"~/.vimrc"
+'9  81  15  ~/.vimrc
+|4,57,81,15,1601595535,"~/.vimrc"
 
 # Jumplist (newest first):
--'  17  12  ~/.gitignore
-|4,39,17,12,1601593330,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1601593286,"~/.gitignore"
--'  54  0  ~/.gitignore
-|4,39,54,0,1601593155,"~/.gitignore"
--'  54  0  ~/.gitignore
-|4,39,54,0,1601593155,"~/.gitignore"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  74  0  ~/.vimrc
-|4,39,74,0,1601592220,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  64  0  ~/.vimrc
-|4,39,64,0,1601591925,"~/.vimrc"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  10  0  ~/.vim/plugins.vim
-|4,39,10,0,1601591923,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
--'  9  0  ~/.vim/plugins.vim
-|4,39,9,0,1601591889,"~/.vim/plugins.vim"
+-'  81  0  ~/.vimrc
+|4,39,81,0,1601595720,"~/.vimrc"
+-'  81  20  ~/.vimrc
+|4,39,81,20,1601595714,"~/.vimrc"
+-'  15  0  ~/.vimrc
+|4,39,15,0,1601595684,"~/.vimrc"
+-'  15  0  ~/.vimrc
+|4,39,15,0,1601595684,"~/.vimrc"
+-'  15  10  ~/.vimrc
+|4,39,15,10,1601595683,"~/.vimrc"
+-'  81  0  ~/.vimrc
+|4,39,81,0,1601595658,"~/.vimrc"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  1  0  ~/plugins.vim
+|4,39,1,0,1601595653,"~/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  10  30  ~/.vim/plugins.vim
+|4,39,10,30,1601595599,"~/.vim/plugins.vim"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  15  ~/.vimrc
+|4,39,81,15,1601595535,"~/.vimrc"
+-'  81  18  ~/.vimrc
+|4,39,81,18,1601595498,"~/.vimrc"
+-'  81  18  ~/.vimrc
+|4,39,81,18,1601595498,"~/.vimrc"
+-'  81  18  ~/.vimrc
+|4,39,81,18,1601595498,"~/.vimrc"
+-'  81  18  ~/.vimrc
+|4,39,81,18,1601595498,"~/.vimrc"
+-'  81  18  ~/.vimrc
+|4,39,81,18,1601595498,"~/.vimrc"
+-'  81  18  ~/.vimrc
+|4,39,81,18,1601595498,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	*	1601593328	0
-	"	17	12
-	^	17	13
-	.	17	12
-	+	18	0
-	+	17	12
-
 > ~/.vimrc
-	*	1601592214	0
-	"	74	0
-	^	74	0
-	.	73	0
+	*	1601595716	0
+	"	81	0
+	^	81	21
+	.	81	20
 	+	2	15
 	+	4	0
 	+	5	25
@@ -311,20 +312,37 @@
 	+	67	24
 	+	68	24
 	+	70	11
-	+	73	6
+	+	74	6
 	+	70	0
 	+	67	29
 	+	71	0
-	+	72	0
-	+	71	0
-	+	72	1
 	+	73	0
+	+	71	0
+	+	73	1
+	+	74	0
+	+	71	15
+	+	72	0
+	+	73	0
+	+	74	0
+	+	73	2
+	+	72	4
+	+	80	13
+	+	81	20
+	+	80	0
+	+	59	4
+	+	83	0
+	+	80	18
+	+	81	20
+
+> ~/plugins.vim
+	*	1601595649	0
+	"	1	0
 
 > ~/.vim/plugins.vim
-	*	1601591922	0
-	"	10	0
-	^	9	28
-	.	9	27
+	*	1601595598	0
+	"	10	30
+	^	10	31
+	.	10	30
 	+	1	33
 	+	12	14
 	+	3	28
@@ -334,6 +352,34 @@
 	+	7	4
 	+	8	27
 	+	9	27
+	+	11	0
+	+	10	30
+
+> ~/.vim/colors/rainbo.vim
+	*	1601594989	0
+	"	1117	3
+	^	1117	4
+	.	1117	3
+	+	1117	3
+
+> ~/.vim/colors/solarized.vim
+	*	1601594940	0
+	"	1117	3
+	^	1117	4
+	.	1117	3
+	+	1117	3
+
+> ~/.vim/plugged/lightline.vim/doc/lightline.txt
+	*	1601594168	0
+	"	227	27
+
+> ~/.gitignore
+	*	1601593328	0
+	"	17	12
+	^	17	13
+	.	17	12
+	+	18	0
+	+	17	12
 
 > ~/.gitconfig
 	*	1601589252	0

@@ -56,7 +56,7 @@ nnoremap <leader>b :CTRLPBuffer<cr>
 set pastetoggle=<leader>p
 
 """"""""""""""""""""""
-""" PLUGIN
+"""  PLUGIN
 """"""""""""""""""""""
 
 " Load vim-plug
@@ -68,7 +68,17 @@ so ~/.vim/plugins.vim
 let g:rainbow_active = 1
 
 " Lightline
-"set g:lightline = {
-"   \ 'colorscheme': 'nord',
-"    \ }
+set laststatus=2
+let g:lightline={
+    \ 'colorscheme': 'solarized',
+    \ }
+
+
+""""""""""""""""""""""""
+"""  Color
+""""""""""""""""""""""""
+set background=dark
+colorscheme solarized 
+
+
 
