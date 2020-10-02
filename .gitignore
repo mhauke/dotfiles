@@ -16,6 +16,8 @@ Thumbs.db
 # VIM plugin directory
 .vim/plugged/
 
+# VIM history
+.viminfo
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
