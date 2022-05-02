@@ -68,17 +68,17 @@ so ~/.vim/plugins.vim
 let g:rainbow_active = 1
 
 " Lightline
-set laststatus=2
-let g:lightline={
-    \ 'colorscheme': 'solarized',
-    \ }
+"set laststatus=2
+"let g:lightline={
+"    \ 'colorscheme': 'solarized',
+"    \ }
 
 
 """"""""""""""""""""""""
 """  Color
 """"""""""""""""""""""""
-set background=dark
-colorscheme solarized 
+"set background=dark
+"colorscheme solarized 
 
 
 
