@@ -45,18 +45,20 @@ SAVEHIST=10000
 ## Aliases
 alias -s {yml,yaml}=vim
 alias -s {json}=vim
+alias grep='grep --color=auto'
 alias -g G='| grep -i'
 alias d='dirs -v | head -10'
-alias zshconfig="nano ~/.zshrc"
-alias dusch="du -sch * | sort -k1 -h "
+alias zshconfig='nano ~/.zshrc'
+alias dusch='du -sch * | sort -k1 -h '
 alias mhmux='tmux attach-session -t mh || tmux new-session -s mh'
 alias g='git'
-alias free="free -m"
-alias df="df -h"
-alias vi="vim"
-alias ll="ls -hlF --time-style=long-iso"
-alias la="ls -hAlF --time-style=long-iso"
-alias mkdir="mkdir -p"
+alias free='free -m'
+alias df='df -h'
+alias vi='vim'
+alias ls='ls --color=auto'
+alias ll='ls -hlF --time-style=long-iso --color=auto'
+alias la='ls -hAlF --time-style=long-iso --color=auto'
+alias mkdir='mkdir -p'
 alias ..='cd ..' # Go up one directory
 alias ...='cd ../..' # Go up two directories
 alias ....='cd ../../..' # Go up three directories
